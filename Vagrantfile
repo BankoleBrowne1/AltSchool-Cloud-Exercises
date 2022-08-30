@@ -33,7 +33,7 @@ Vagrant.configure("2") do |config|
   # Create a private network, which allows host-only access to the machine
   # using a specific IP.
   config.vm.network "private_network",  type: 'dhcp'
-  config.timezone.value = "WAT"
+  config.timezone.value = "Africa/Lagos"
 
    
 
